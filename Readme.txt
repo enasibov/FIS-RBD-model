@@ -25,3 +25,8 @@ The "fuzlab" package extends the existing Fuzzylab library with the following mo
 The "test.ipynb" notebook file contains usage examples of "fuzlab" package with different FIS modules.
 
 """ 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6a2ba2a98a30cc66180854cb2ad50665eced4bd1
