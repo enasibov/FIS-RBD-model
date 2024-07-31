@@ -1,0 +1,22 @@
+[System]
+Name='tipper'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=0
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='service'
+Range=[0 10]
+NumMFs=3
+MF1='poor':'gaussmf',[1.5 0]
+MF2='good':'gaussmf',[1.5 5]
+MF3='excellent':'gaussmf',[1.5 10]
+
+[Rules]
